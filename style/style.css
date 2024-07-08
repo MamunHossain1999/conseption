@@ -14,11 +14,11 @@ body{
 .banner-section{
     max-width: 1320px ;
     height: 600px;
-    background-image: url(./image/images/Banner\ Image.png);
+    background-image: url(./image/images/Banner\ Image.png), linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: hard-light;
+    background-blend-mode: overlay;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,10 +46,9 @@ body{
 /*  all catagoris section start here */
 
 .categoris-section{
-    max-width: 802.9px;
+    max-width: 1320px;
     height: 806px;
     margin: 0 auto;
-    margin-top: -30px ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,6 +88,135 @@ body{
 }
 .categoris-section .img-section{
     margin-top: 48px;
+    margin-bottom: 120px;
    
 }
 /* all catagoris section end here */
+
+/* welcome section style start here */
+.welcome-section{
+    max-width: 1320px;
+    height: 600px;
+    background-image: url(./image/images/Vectorrr.png), linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+   
+ 
+    background-blend-mode: overlay;
+    margin-top:120px;
+    display: flex;
+    
+    
+   
+}
+
+.welcome{
+    width: 600px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+
+}
+
+.welcome h4{
+    width: 642px;
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-left: 126px;
+    text-align: calc(50% -50);
+    
+}
+
+.welcome p{
+    width: 697px;
+    height: 60px;
+    margin-left: 126px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+
+}
+
+.welcome .btn{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-left: 158px;
+    margin-top: 48px;
+    text-transform: uppercase;
+    
+}
+.img-section{
+    width: 550.16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.img-section img{
+   height: 465.65px; 
+   width: 349.16;
+}
+
+/* welcome section style end here */
+
+
+/* new park section style start here */
+
+ .prak-section{
+        max-width: 1320px;
+        height: 482px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    }
+
+    .prak-section p{
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 56px;
+        font-family: Inter;
+    }
+
+.prak-section p span{
+    width: 549px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    font-family: Inter;
+    color: rgb(255, 0, 0);
+}
+
+.prak-section .btn1{
+    width: 167px;
+    height: 56px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.prak-section .btn1 button{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    background: rgb(255, 0, 0);
+    border-radius: 8px;
+    border-style: none;
+    padding: 16px 32px 16px 32px;
+}
+/* new park section style end here */
