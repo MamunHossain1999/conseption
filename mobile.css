@@ -1,0 +1,135 @@
+@media screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid red;
+    }
+    .banner-section{
+        max-width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        
+    }
+    .banner-section h1{
+        max-width: 100%;
+        font-size:3rem ;
+        line-height: 1.5;
+        
+    }
+    /* all categoris-section */
+    .categoris-section{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .categoris-section h1{
+        max-width: 100%;
+        margin: 0 auto;
+        font-size: 3rem;
+    }
+    .categoris-section p{
+        max-width: 90%;
+        margin: 0 auto;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .categoris-section h2{
+        max-width: 95%;
+        margin: 0 auto;
+        font-size: 2rem;
+    }
+    .categoris-section .img-section img{
+        max-width: 100%;
+        height: 400px;
+    }
+
+    /* welcome section responsive */
+    .welcome-section{
+        max-width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .welcome{
+        max-width: 100%;
+        height: 500px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .welcome h4{
+        max-width: 100%;
+        margin: 0 auto;
+        font-size: 1rem;
+        margin-top: -30px;
+
+    }
+    .welcome p{
+        max-width: 100%;
+        margin: 0 auto;
+        font-size: 1rem;
+        padding-left: 10px;
+        padding-bottom: 200px;
+    }
+    .welcome .btn{
+        max-width: 100%;
+        margin: 0 auto;
+        font-size: 2rem;
+        
+    }
+    .img-section1 img{
+        max-width: 100%;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .img-section1{
+        max-width: 100%;
+        height: 200px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    /* new prak section responsive  */
+    .prak-section{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .prak-section p{
+        max-width: 90%;
+        margin: 0 aut;
+        font-size: 1rem;
+    }
+
+    /* coming soon area responsive */
+    .hero-section{
+        max-width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .hero-section .left-side{
+        max-width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .hero-section .middle-section{
+        max-width: 400px;
+        height: 290px;
+        margin: 0 auto;
+        border: 10px solid red;
+        padding: 10px;
+       
+        
+    }
+  
+    .hero-section .middle-section .img img{
+        max-width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    .hero-section .right-side{
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}

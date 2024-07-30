@@ -10,6 +10,12 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
 /* .banner-section style start here */
 .banner-section{
     max-width: 1320px ;
@@ -26,16 +32,17 @@ body{
    
 }
 .banner-section h3{
-    width: 259px;
+    max-width: 259px;
     height: 40px;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 400;
     color: rgb(255, 255, 255);
 }
 
 .banner-section h1{
+    max-width: 632px;
     color: rgb(255, 255, 255);
-    font-size: 72px;
+    font-size: 4.5rem;
     font-weight: 900;
     line-height: 95px;
     text-align: center;
@@ -59,7 +66,7 @@ body{
 .categoris-section h1{
     color: rgb(255, 0, 0);
     font-family: Inter;
-    font-size: 88px;
+    font-size: 5.5rem;
     font-weight: 700;
     line-height: 107px;
     letter-spacing: 0%;
@@ -70,7 +77,7 @@ body{
 .categoris-section p{
     color: rgb(255, 0, 0);
     font-family: Inter;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 29px;
     letter-spacing: 0%;
@@ -81,15 +88,22 @@ body{
 .categoris-section h2{
     color: rgb(7, 2, 17);
     font-family: Inter;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 58px;
 
 }
 .categoris-section .img-section{
+    max-width: 90%;
+    margin: 0 auto;
     margin-top: 48px;
     margin-bottom: 120px;
-   
+    /* display:flex; */
+    align-items:center ;
+}
+.categoris-section .img-section img{
+    max-width: 802px;
+    height: 500px;
 }
 /* all catagoris section end here */
 
@@ -101,19 +115,14 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover ;
-   
- 
     background-blend-mode: overlay;
     margin-top:120px;
     display: flex;
-    
-    
-   
+
 }
 
 .welcome{
-    width: 600px;
-    
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,23 +132,23 @@ body{
 }
 
 .welcome h4{
-    width: 642px;
+   max-width: 642px;
     color: rgb(255, 255, 255);
     font-family: Merriweather;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 900;
     margin-left: 126px;
-    text-align: calc(50% -50);
-    
+    line-height: 70px;
+    margin-bottom: 24px;
 }
 
 .welcome p{
-    width: 697px;
+    max-width: 697px;
     height: 60px;
     margin-left: 126px;
     color: rgba(255, 255, 255, 0.8);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0%;
@@ -149,7 +158,7 @@ body{
 .welcome .btn{
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0%;
@@ -158,8 +167,8 @@ body{
     text-transform: uppercase;
     
 }
-.img-section{
-    width: 550.16px;
+.img-section1{
+    max-width: 550.16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -167,9 +176,9 @@ body{
     
 }
 
-.img-section img{
+.img-section1 img{
    height: 465.65px; 
-   width: 349.16;
+   max-width: 349.16;
 }
 
 /* welcome section style end here */
@@ -188,14 +197,14 @@ body{
     }
 
     .prak-section p{
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: 600;
         line-height: 56px;
         font-family: Inter;
     }
 
 .prak-section p span{
-    width: 549px;
+    max-width: 549px;
     font-size: 32px;
     font-weight: 600;
     line-height: 56px;
@@ -204,7 +213,7 @@ body{
 }
 
 .prak-section .btn1{
-    width: 167px;
+    max-width: 167px;
     height: 56px;
     text-align: center;
     margin-top: 50px;
@@ -212,7 +221,7 @@ body{
 
 .prak-section .btn1 button{
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     background: rgb(255, 0, 0);
     border-radius: 8px;
@@ -220,3 +229,81 @@ body{
     padding: 16px 32px 16px 32px;
 }
 /* new park section style end here */
+
+/*coming soon area responsive */
+
+.hero-section{
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.hero-section .left-side{
+    max-width: 328px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.hero-section .left-side h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: red;
+    
+}
+.hero-section .left-side h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+}
+
+.hero-section .left-side p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+ .hero-section .middle-section{
+    max-width: 450.84px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 20px solid red;
+    border-radius: 50%;
+}
+
+ .img{
+    max-width: 364.84px;
+    height: 364.84px ;
+   
+}
+.hero-section .right-side{
+    max-width: 276px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-section .right-side h2{
+    width: 126px;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: Inter;
+    color: rgb(255, 0, 0);
+}
+
+.hero-section .right-side p{
+    font-size: 1.25rem;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.hero-section .right-side img{
+    width: 140px;
+    height: 132px;
+    margin-top: 43px;
+}
+/* hero section style end here */
